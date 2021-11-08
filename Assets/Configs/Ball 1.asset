@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96f07419d2e1a440a65725bda423745, type: 3}
+  m_Name: Ball 1
+  m_EditorClassIdentifier: 
+  _name: First
+  _color: {r: 0.47547168, g: 1, b: 0.9720153, a: 1}
+  _energyCost: 2
+  _prefab: {fileID: 5570535847184751304, guid: 366351ae9b31d1446b2e031693b75d76, type: 3}
