@@ -13,7 +13,7 @@ public class Energy : MonoBehaviour
 
     public event Action ValueChanged;
 
-    public float Progress => _tempTime;
+    public float Progress => _tempTime * _increaseValue;
     public float CurrentValue {
         get => _currentValue; set {
             _currentValue = Mathf.Clamp(value, 0, MaxValue);
@@ -37,7 +37,7 @@ public class Energy : MonoBehaviour
 
         if (_tempTime >= 1) {
             _tempTime = 0;
-            CurrentValue++;
+            CurrentValue += _increaseValue;
         }
     }
 }
