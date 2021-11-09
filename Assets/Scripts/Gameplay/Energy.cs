@@ -37,7 +37,7 @@ public class Energy : MonoBehaviour
 
         if (_tempTime >= 1) {
             _tempTime = 0;
-            CurrentValue++;
+            CurrentValue+=_increaseValue;
         }
     }
 }
