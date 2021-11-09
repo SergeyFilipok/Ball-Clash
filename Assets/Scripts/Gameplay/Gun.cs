@@ -25,7 +25,9 @@ public class Gun : MonoBehaviour
 
     public void Shot() {
         var body = _ballFactory.GetBall(_currentPrefab, _pointer.position, _pointer.rotation);
-        body.AddExplosionForce(_maxForce * _currentForce, transform.position, 3);
+        var forece = body.transform.forward * _maxForce * _currentForce;
+        body.velocity = Vector3.zero;
+        body.AddForce(forece, ForceMode.Impulse);
         _currentForce = 0;
         DisplayForce();
     }
