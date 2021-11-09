@@ -5127,8 +5127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a82bd874db19814c997ba2e375ee98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startValue: 1
-  _increaseValue: 0
+  _startValue: 3
+  _increaseValue: 0.3
   _maxValue: 10
 --- !u!1 &1907972435
 GameObject:
@@ -5611,6 +5611,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b885c9894fba14db05a62e4d9ec762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shotTime: 7
+  _shotTime: 10
   _rotationSpeed: 10
   _gun: {fileID: 394314966}
