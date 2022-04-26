@@ -5330,7 +5330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _raycastTarget: {fileID: 1952515027}
-  _sensitivity: 1
+  _sensitivity: 2
   _maxInputMagnitude: 5
 --- !u!1 &1985789613
 GameObject:
